@@ -1,0 +1,16 @@
+[package]
+name = "syfodeploy"
+version = "0.1.0"
+authors = ["Kent Daleng <kent.stefan.daleng@nav.no>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = "0.9.19"
+webbrowser = "0.5.2"
+dirs = "2.0.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+text_io = "0.1.7"
+git2 = "0.10"
